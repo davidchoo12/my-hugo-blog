@@ -1,0 +1,138 @@
+[
+  {
+    "name": "NUSWhispers Analysis",
+    "url": "https://nuswhispers-analysis.herokuapp.com/index.html",
+    "repo_url": "https://github.com/davidchoo12/nuswhispers-analysis",
+    "video_url": "https://www.youtube.com/watch?v=UBmIUV5FekM",
+    "tech": [
+      "[Github Actions](https://docs.github.com/en/actions)",
+      "[NumPy](https://numpy.org/)",
+      "[pandas](https://pandas.pydata.org/)",
+      "[FastAPI](https://fastapi.tiangolo.com/)",
+      "[uPlot](https://github.com/leeoniya/uPlot/)"
+    ],
+    "progress": "ongoing",
+    "period": "Dec 2020 - current",
+    "desc": "A website displaying stats and data analysis on NUSWhispers' confessions inspired by [this post](https://www.facebook.com/nuswhispers/photos/a.817681254969004/3204771462926626). It currently just displays some time series data. Planning to add sentiment analysis and dynamic topic modelling. This is also my submission for Hack&Roll 2021."
+  },
+  {
+    "name": "Advent of Code 2020",
+    "repo_url": "https://github.com/davidchoo12/adventofcode2020",
+    "tech": ["Rust"],
+    "progress": "done",
+    "period": "Dec 2020",
+    "desc": "Found it fun last year, so I did it again this year, this time with Rust. I documented on some of the notable problems and my experience with Rust in the repo."
+  },
+  {
+    "name": "Hole in the Wall game",
+    "url": "https://davidchoo12.github.io/hole-in-the-wall-game/",
+    "video_url": "https://www.youtube.com/watch?v=T5K2XZUlXPY",
+    "repo_url": "https://github.com/davidchoo12/hole-in-the-wall-game",
+    "tech": [
+      "[Tensorflow.js PoseNet](https://github.com/tensorflow/tfjs-models/tree/master/posenet/)",
+      "[PoseNet Similarity](https://github.com/freshsomebody/posenet-similarity)",
+      "[HTML5 Canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)"
+    ],
+    "progress": "done",
+    "period": "Jan 2020",
+    "image_url": "https://raw.githubusercontent.com/davidchoo12/hole-in-the-wall-game/master/demo.jpg",
+    "desc": "A browser game reminiscent of Hole in the Wall gameshow powered by Tensorflow Pose Estimation library (aka Posenet)"
+  },
+  {
+    "name": "Advent of Code 2019",
+    "repo_url": "https://github.com/davidchoo12/adventofcode2019",
+    "tech": ["Just python but involves some algorithmic problem solving, check out the repo for details"],
+    "progress": "done",
+    "period": "Dec 2019",
+    "desc": "Advent of Code is a yearly coding challenge with daily coding problems for the month of December. I completed the Advent of Code 2019 challenge, finishing it right on New Year's Eve. I took the chance to learn a new language like many others which is python in my case."
+  },
+  {
+    "name": "Luminus Filetree",
+    "repo_url": "https://github.com/davidchoo12/luminus-filetree",
+    "tech": [
+      "[WebExtensions API](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions)",
+      "[fancytree](https://github.com/mar10/fancytree)"
+    ],
+    "progress": "done",
+    "usage": "daily",
+    "period": "Aug 2019 - Sep 2019",
+    "image_url": "https://raw.githubusercontent.com/davidchoo12/luminus-filetree/master/assets/filetree-demo.gif",
+    "desc": "Browser extension for providing a filetree UI option in Luminus Files view."
+  },
+  {
+    "name": "This website/blog",
+    "url": "https://davidchoo.netlify.com",
+    "tech": ["[Jekyll](https://jekyllrb.com/)"],
+    "progress": "ongoing",
+    "usage": "monthly",
+    "period": "Jul 2019 - present",
+    "desc": "Personal blog and portfolio website powered by Jekyll."
+  },
+  {
+    "name": "Kattis Graph",
+    "url": "https://davidchoo12.github.io/kattis-daily-scraper-web/davidchoo.html",
+    "repo_url": "https://github.com/davidchoo12/kattis-daily-scraper-web",
+    "tech": [
+      "[chart.js](https://www.chartjs.org/)",
+      "[Google Apps Script](https://developers.google.com/apps-script/)"
+    ],
+    "progress": "needs refinement",
+    "usage": "once refined, hopefully used by students doing CS3233 Competitive Programming",
+    "period": "Mar 2019",
+    "desc": "Website to chart out stats I scraped daily from Kattis"
+  },
+  {
+    "name": "NUS modules dependency visualizer",
+    "url": "https://davidchoo12.github.io/nusmods-graphd3",
+    "repo_url": "https://github.com/davidchoo12/nusmods-graphd3",
+    "tech": ["[D3.js](https://d3js.org/)"],
+    "progress": "done (incomplete)",
+    "period": "Jan 2019",
+    "desc": "Visualizes NUS modules dependencies for each course. Hack&Roll 2019 submission."
+  },
+  {
+    "name": "Raspberry Pi for h265 decoding on TV",
+    "tech": [
+      "[Raspberry Pi 3 model B](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/)",
+      "[OSMC](https://osmc.tv/)"
+    ],
+    "progress": "done",
+    "usage": "daily whenever I'm back at home",
+    "period": "Jun 2018 - Jul 2018",
+    "image_url": "https://raw.githubusercontent.com/davidchoo12/my-jekyll-blog/refs/heads/master/assets/img/20180724_183236.jpg",
+    "desc": "Raspberry Pi running OSMC media center for playing h265 encoded videos. There wasn't any coding involved, but I had to do some research to find OSMC as there was little to no support for h265 videos on the Pi."
+  },
+  {
+    "name": "Download Scheduler",
+    "url": "https://download-scheduler.herokuapp.com/",
+    "repo_url": "https://github.com/davidchoo12/download-scheduler",
+    "tech": ["[Node.js](https://nodejs.org/)"],
+    "progress": "done but can be refined",
+    "usage": "weekly",
+    "period": "Jun 2018 - present",
+    "desc": "What intended to be a website for letting my phone do overnight downloads (because midnight quota is cheaper in Indonesia), has now become a website gathering download links to my selected animes and youtube channels"
+  },
+  {
+    "name": "Bus Arrivals",
+    "url": "https://davidchoo12.github.io/busArrivals/",
+    "repo_url": "https://github.com/davidchoo12/busArrivals",
+    "tech": ["Plain html calling some APIs"],
+    "progress": "done but can be refined",
+    "usage": "daily",
+    "period": "Jan 2018 - Sep 2018",
+    "desc": "Gathers and displays bus arrival timings for routes I configured for public and NUS buses. I use this daily to plan my path to and from school."
+  },
+  {
+    "name": "Video Auto Caption",
+    "url": "https://devpost.com/software/video-auto-captioner-nsbekw",
+    "repo_url": "https://github.com/davidchoo12/video-auto-caption",
+    "tech": [
+      "[Node.js](https://nodejs.org/)",
+      "[Google Speech API](https://cloud.google.com/speech-to-text/)",
+      "[FFmpeg](https://www.ffmpeg.org/)"
+    ],
+    "progress": "done",
+    "period": "Jan 2018",
+    "desc": "Generates captions for videos. Hack&Roll 2018 submission."
+  }
+]

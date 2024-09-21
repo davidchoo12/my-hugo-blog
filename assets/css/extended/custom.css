@@ -1,0 +1,60 @@
+:root {
+  --theme: #f8fafc; /* slate-100 */
+  --entry: #e2e8f0; /* slate-200 */
+  --primary: #065f46; /* indigo-800 */
+  --secondary: #334155; /* slate-700 */
+  --tertiary: #94a3b8; /* slate-400 */
+  --content: #334155; /* slate-700 */
+  --code-block-bg: #1e1e1e; /* vscode bg */
+  --code-bg: #e2e8f0; /* slate-200 */
+  --border: #cbd5e1; /* slate-400 */
+}
+
+.dark {
+  --theme: #0f172a; /* slate-900 */
+  --entry: #1e293b; /* slate-800 */
+  --primary: #6ee7b7; /* emerald-300 */
+  --secondary: #cbd5e1; /* slate-300 */
+  --tertiary: #334155; /* slate-600 */
+  --content: #cbd5e1; /* slate-300 */
+  --code-block-bg: #1e1e1e; /* vscode bg */
+  --code-bg: #1e1e1e; /* vscode bg */
+  --border: #334155; /* slate-700 */
+}
+
+@font-face {
+  font-family: 'Roboto Slab';
+  src: url('https://fonts.gstatic.com/s/robotoslab/v34/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmb2Rj.woff2');
+}
+
+.logo > a {
+  color: var(--primary);
+  font-family: 'Roboto Slab';
+}
+
+#menu a {
+  font-weight: bold;
+  font-family: 'Roboto Slab';
+}
+
+#menu .active {
+  font-weight: bold;
+}
+
+.entry-content p {
+  margin-bottom: var(--content-gap);
+}
+
+h1:hover .anchor,
+h2:hover .anchor,
+h3:hover .anchor,
+h4:hover .anchor,
+h5:hover .anchor,
+h6:hover .anchor {
+  color: var(--primary)
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: var(--primary);
+  font-family: 'Roboto Slab';
+}
