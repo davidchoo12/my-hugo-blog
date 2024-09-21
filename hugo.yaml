@@ -33,3 +33,6 @@ params:
       url: "https://www.linkedin.com/in/davidchoo12/"
   ShowReadingTime: true
   ShowToc: true
+  assets:
+    theme_color: "#34d399"
+    msapplication_TileColor: "#34d399"
