@@ -36,3 +36,4 @@ params:
   assets:
     theme_color: "#34d399"
     msapplication_TileColor: "#34d399"
+  comments: true
