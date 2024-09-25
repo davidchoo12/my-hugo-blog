@@ -16,16 +16,15 @@
 </script>
 
 <script>
-function setGiscusTheme(theme) {
-  const iframe = document.querySelector('iframe.giscus-frame');
-  if (!iframe) return;
-  iframe.contentWindow.postMessage({giscus:{setConfig:{theme} } }, 'https://giscus.app');
+function syncGiscusTheme() {
+  let theme = "preferred_color_scheme";
+  if (localStorage.getItem("pref-theme") === "dark") {
+    theme = "dark";
+  } else if (localStorage.getItem("pref-theme") === "light") {
+    theme = "light";
+  }
+  document.querySelector('script[src="https://giscus.app/client.js"]').setAttribute("data-theme", theme);
+  document.querySelector('iframe.giscus-frame')?.contentWindow.postMessage({giscus:{setConfig:{theme} } }, 'https://giscus.app');
 }
-let theme = "preferred_color_scheme"
-if (localStorage.getItem("pref-theme") === "dark") {
-  theme = "dark"
-} else if (localStorage.getItem("pref-theme") === "light") {
-  theme = "light"
-}
-document.querySelector('script[src="https://giscus.app/client.js"]').setAttribute("data-theme", theme)
+syncGiscusTheme()
 </script>
