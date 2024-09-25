@@ -26,7 +26,7 @@ params:
 
       I'm a software engineer working full time since 2021 with experience in SRE role and full stack web development. As of 2024, I'm employeed as a senior SRE in Shopee. My job involves direct contribution to 8 internal websites throughout various parts of the software development lifecycle - requirements gathering, exploration/research, design, implementation, testing, release, maintenance. I'm proud to have experienced being the dedicated SRE for several internal dev teams, investigating and troubleshooting technical issues, actively monitoring for issues during peak campaign periods. Since 2024, I'm also involved in taking on the role of incident manager, ie to be on call for incidents, as well as conducting technical interviews for recruitment.
 
-      I graduated from National University of Singapore with a bachelor in Information Systems, although I consider myself more akin to a Computer Science graduate having taken additional CS modules outside of my curriculum. I love to code and there is still so much to learn.
+      I graduated from National University of Singapore with a bachelor in Information Systems, although I consider myself more akin to a Computer Science graduate having voluntarily taken additional CS modules outside of my curriculum. I love to code and there is still so much to learn.
 
       I may write about interesting tech topics from time to time.
   socialIcons:
@@ -34,9 +34,13 @@ params:
       url: "https://github.com/davidchoo12"
     - name: "linkedin"
       url: "https://www.linkedin.com/in/davidchoo12/"
+  description: David Choo's dev blog
+  author: David Choo
   ShowReadingTime: true
   ShowToc: true
   assets:
     theme_color: "#34d399"
     msapplication_TileColor: "#34d399"
   comments: true
+  footer:
+    text: "[Source code](https://github.com/davidchoo12/my-hugo-blog/)"
