@@ -37,6 +37,7 @@ params:
   description: David Choo's dev blog
   author: David Choo
   ShowReadingTime: true
+  hideAuthor: true
   ShowToc: true
   assets:
     theme_color: "#34d399"

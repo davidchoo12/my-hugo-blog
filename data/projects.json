@@ -1,19 +1,26 @@
 [
   {
+    "name": "Advent of Code 2023",
+    "repo_url": "https://github.com/davidchoo12/adventofcode2023",
+    "tech": ["Elixir"],
+    "progress": "done",
+    "period": "Dec 2023",
+    "desc": "Wanted to brush up on my algo skills and try out functional programming. I was recommended Elixir. This year had some incredibly difficult problems compared to 2019 and 2020."
+  },
+  {
     "name": "NUSWhispers Analysis",
-    "url": "https://nuswhispers-analysis.herokuapp.com/index.html",
+    "url": "https://nuswhispers.fyi",
     "repo_url": "https://github.com/davidchoo12/nuswhispers-analysis",
-    "video_url": "https://www.youtube.com/watch?v=UBmIUV5FekM",
     "tech": [
       "[Github Actions](https://docs.github.com/en/actions)",
       "[NumPy](https://numpy.org/)",
       "[pandas](https://pandas.pydata.org/)",
-      "[FastAPI](https://fastapi.tiangolo.com/)",
-      "[uPlot](https://github.com/leeoniya/uPlot/)"
+      "[uPlot](https://github.com/leeoniya/uPlot/)",
+      "[tailwind](https://tailwindcss.com/)"
     ],
     "progress": "ongoing",
-    "period": "Dec 2020 - current",
-    "desc": "A website displaying stats and data analysis on NUSWhispers' confessions inspired by [this post](https://www.facebook.com/nuswhispers/photos/a.817681254969004/3204771462926626). It currently just displays some time series data. Planning to add sentiment analysis and dynamic topic modelling. This is also my submission for Hack&Roll 2021."
+    "period": "Dec 2020 - Jan 2023",
+    "desc": "A website displaying stats and data analysis on NUSWhispers' confessions inspired by [this post](https://www.facebook.com/nuswhispers/photos/a.817681254969004/3204771462926626). This project has custom facebook posts scraper, timeseries charts, TF-IDF wordclouds, mention graphs, several custom UI components. The initial version was my submission for Hack&Roll 2021. I learnt a lot from this project."
   },
   {
     "name": "Advent of Code 2020",
