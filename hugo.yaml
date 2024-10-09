@@ -5,6 +5,7 @@ theme: PaperMod
 frontmatter:
   lastmod: modified
   publishDate: published
+timeZone: Asia/Singapore
 markup:
   highlight:
     style: onedark
